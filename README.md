@@ -57,5 +57,5 @@ A diferença entre domínio e subdomínio seria o tamanho. Por um lado o Domíni
 #### Solução
 - A partir da visão geral do domínio encontrada no espaço do problema, nós analisamos e modelamos o do domínio. E apartir desse domínio nós vamos delimitar os contextos, com isso teremos mais subprodutos (subdomínios).
 
-### O que é um contexto delimitado
-
+### O que é um contexto delimitado (bounded contexts)
+A Bounded Context is an explicit boundary within which a domain model exists. Inside the boundary all terms and phrases of the Ubiquitous Language have specific meaning, and the model reflects the Language with exactness. - Vernon, Vaughn. Implementing Domain-Driven Design
