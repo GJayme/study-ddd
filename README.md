@@ -43,3 +43,19 @@ Quando estamos falando de DDD não estamos falando apenas de patterns apenas, es
 
 ### Resumindo
 "In short, DDD is primarily about modeling a Ubiquitous Language in an explicitly Bounded Context." - Vernon, Vaughn. Domain-Driven Design Distilled (p.11). Pearson Education. Kindle Edition.
+
+## Dómínios, subdomínios e contextos
+### Domínio vs subdomínio
+A diferença entre domínio e subdomínio seria o tamanho. Por um lado o Domínio de forma geral é grande, porém nós conseguimos dividi-lo em partes menores, conhecida por subdomínio. Tipos de subdomínios:
+- Core Domain: parte mais importante do sistema. coração do negócio. É o lugar que está o diferencial competitivo da empresa.
+- Support subdomain: apoiam o domínio em operações para tornar possível.
+- Generic subdomain: são softwares auxiliares, não é algo que faz grande diferença no negócio, consegue ser substituído.
+
+### Espaço de problema vs espaço de solução
+#### Problema
+- visão geral do domínio e suas complexidades. A partir dessa visão geral, nós começamos a separar os Subdomínios.
+#### Solução
+- A partir da visão geral do domínio encontrada no espaço do problema, nós analisamos e modelamos o do domínio. E apartir desse domínio nós vamos delimitar os contextos, com isso teremos mais subprodutos (subdomínios).
+
+### O que é um contexto delimitado
+
