@@ -59,3 +59,16 @@ A diferença entre domínio e subdomínio seria o tamanho. Por um lado o Domíni
 
 ### O que é um contexto delimitado (bounded contexts)
 A Bounded Context is an explicit boundary within which a domain model exists. Inside the boundary all terms and phrases of the Ubiquitous Language have specific meaning, and the model reflects the Language with exactness. - Vernon, Vaughn. Implementing Domain-Driven Design
+
+### Contexto
+- Contexto é rei, ele que determina qual area, tipo de problema que estamos tentando resolver, qual linguagem esta sendo usanda, etc.
+- Por exemplo, podem existir dois contextos diferentes para uma mesma palavra. Como por exemplo `Ticket`, pode ser tanto para um `ingresso` como para um `suporte ao cliente`.
+- O oposto se aplica também, podem existir duas palavras diferentes que indicam a mesma coisa. Quando isso acontece pode ser que o contexto seja diferente.
+
+### Elementos transversais
+- Apesar de estarmos em contexto delimitados diferentes eles acabam se conversando entre entidades, elementos que acabam sendo transversais (que estão em todos os lados com perspectivas diferentes).
+
+## Visão estratégica
+### Context mapping na prática
+![modelagem estratégica](/image/modelagem_estratégica)
+
